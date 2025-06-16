@@ -17,7 +17,7 @@ org_settings:
     org_name: Mario - United
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
-   webhook_settings:
+  webhook_settings:
     activities_webhook:
-        enable_activities_webhook: true
-        destination_url: https://example.org/webhook_handler
+      enable_activities_webhook: true
+      destination_url: https://example.org/webhook_handler
