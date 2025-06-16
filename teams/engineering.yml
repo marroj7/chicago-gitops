@@ -15,6 +15,14 @@ queries:
   - path: ../lib/all/queries/collect-failed-login-attempts.queries.yml
 agent_options:
   path: ../lib/agent-options.yml
+controls:
+    enable_disk_encryption: true
+    macos_settings:
+        custom_settings:
+            - path: ../lib/disable-bluetooth-file-sharing.mobileconfig
+            - path: ../lib/passcode-settings-ddm.json
+    scripts:
+        - path: ../lib/set-wallpaper.ps1
 team_settings:
   secrets:
     - secret: "$FLEET_ENGINEERING_ENROLL_SECRET"
