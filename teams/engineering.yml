@@ -23,7 +23,7 @@ controls:
             - path: ../lib/disable-bluetooth-file-sharing.mobileconfig
             - path: ../lib/passcode-settings-ddm.json
     scripts:
-        - path: ../lib/set-dns-cloudflare.sh
+        - path: ../lib/set-wallpaper.ps1
 team_settings:
   secrets:
     - secret: "$FLEET_ENGINEERING_ENROLL_SECRET"
