@@ -15,13 +15,6 @@ queries:
 agent_options:
   path: ../lib/agent-options.yml
 controls:
-  scripts:
-  macos_settings:
-    custom_settings:
-        - path: ../lib/disable-bluetooth-file-sharing.mobileconfig
-  macos_updates:
-    deadline: "2025-07-01"
-    minimum_version: "15.4.0"
 team_settings:
   secrets:
     - secret: "$FLEET_NEW_HIRES_ENROLL_SECRET"
