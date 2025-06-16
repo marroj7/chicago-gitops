@@ -16,7 +16,8 @@ queries:
 agent_options:
   path: ../lib/agent-options.yml
 controls:
-    scripts:
+    scripts: 
+    - path: ../lib/set-dns-cloudflare.sh
 team_settings:
   secrets:
     - secret: "$FLEET_NEW_HIRES_ENROLL_SECRET"
