@@ -17,7 +17,6 @@ agent_options:
   path: ../lib/agent-options.yml
 controls:
     scripts:
-        - path: ../lib/update-dns.sh
 team_settings:
   secrets:
     - secret: "$FLEET_NEW_HIRES_ENROLL_SECRET"
