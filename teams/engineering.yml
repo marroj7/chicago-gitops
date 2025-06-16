@@ -19,10 +19,10 @@ controls:
     enable_disk_encryption: true
     macos_settings:
         custom_settings:
-            - path: ../lib/windows/disable-bluetooth-file-sharing.mobileconfig
-            - path: ../lib/windows/passcode-settings-ddm.json
+            - path: ../lib/disable-bluetooth-file-sharing.mobileconfig
+            - path: ../lib/passcode-settings-ddm.json
   scripts:
-    - path: ../lib/windows/set-wallpaper.ps1
+    - path: ../lib/set-wallpaper.ps1
 team_settings:
   secrets:
     - secret: "$FLEET_ENGINEERING_ENROLL_SECRET"
