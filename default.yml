@@ -13,7 +13,5 @@ controls: # This cannot be set here and in no-team.yml
 org_settings:
    server_settings:
     server_url: $FLEET_URL
-  org_info:
-    org_name: Mario - United
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
