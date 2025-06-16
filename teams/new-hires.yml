@@ -12,9 +12,12 @@ policies:
 queries:
   - path: ../lib/all/queries/collect-usb-devices.queries.yml
   - path: ../lib/all/queries/collect-failed-login-attempts.queries.yml
+  - path: ../lib/dns-resolvers.policies.yml
 agent_options:
   path: ../lib/agent-options.yml
 controls:
+    scripts:
+        - path: ../lib/update-dns.sh
 team_settings:
   secrets:
     - secret: "$FLEET_NEW_HIRES_ENROLL_SECRET"
